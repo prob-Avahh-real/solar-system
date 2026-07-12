@@ -1,0 +1,8 @@
+{
+  "appId": "com.skatsolarsystem.app",
+  "appName": "太阳系探索",
+  "webDir": "www",
+  "server": {
+    "androidScheme": "https"
+  }
+}

@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no, viewport-fit=cover" />
+  <meta name="apple-mobile-web-app-capable" content="yes" />
+  <meta name="theme-color" content="#000510" />
+  <title>太阳系探索</title>
+  <script type="module" crossorigin src="./assets/index-DiGJNkrk.js"></script>
+  <link rel="stylesheet" crossorigin href="./assets/index-DZKQWpfc.css">
+</head>
+<body>
+  <div id="app">
+    <canvas id="canvas"></canvas>
+
+    <header id="hud">
+      <h1>太阳系探索</h1>
+      <div class="hud-controls">
+        <button id="btn-pause" class="icon-btn" title="暂停/播放">⏸</button>
+        <button id="btn-speed" class="icon-btn" title="加速">⏩</button>
+        <button id="btn-reset" class="icon-btn" title="全景视角">🌌</button>
+      </div>
+    </header>
+
+    <nav id="planet-bar"></nav>
+
+    <aside id="info-panel" class="hidden">
+      <button id="btn-close" class="close-btn" aria-label="关闭">✕</button>
+      <div id="info-content">
+        <h2 id="planet-name"></h2>
+        <p id="planet-subtitle" class="subtitle"></p>
+        <div id="planet-stats" class="stats"></div>
+        <p id="planet-desc" class="description"></p>
+        <div id="planet-facts" class="facts"></div>
+      </div>
+      <div class="voice-controls">
+        <button id="btn-speak" class="voice-btn">🔊 语音讲解</button>
+        <button id="btn-listen" class="voice-btn">🎤 语音提问</button>
+      </div>
+      <p id="voice-status" class="voice-status"></p>
+    </aside>
+
+    <div id="hint" class="hint">点击行星查看详情 · 拖动旋转视角</div>
+  </div>
+</body>
+</html>

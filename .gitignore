@@ -1,0 +1,52 @@
+# Auto-generated
+.DS_Store
+*.swp
+*.swo
+.idea/
+.vscode/
+*.iml
+
+# Dependencies & build
+node_modules/
+.pnp/
+.pnp.js
+vendor/
+Pods/
+.gradle/
+build/
+dist/
+out/
+target/
+*.egg-info/
+.eggs/
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+.coverage
+htmlcov/
+.turbo/
+.next/
+.nuxt/
+.expo/
+*.xcworkspace
+xcuserdata/
+DerivedData/
+*.ipa
+*.apk
+*.aab
+
+# Env & secrets
+.env
+.env.*
+!.env.example
+!.env.template
+*.pem
+*.key
+credentials.json
+
+# OS & logs
+*.log
+Thumbs.db
+
